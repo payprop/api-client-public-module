@@ -1,6 +1,6 @@
 # NAME
 
-PayProp::API::Public::Client - PayProp API client.
+PayProp::API::Public::Client - (DEPRECATED) PayProp API client.
 
 # SYNOPSIS
 
@@ -71,6 +71,11 @@ PayProp::API::Public::Client - PayProp API client.
         ;
 
 # DESCRIPTION
+
+**This module is deprecated.** A new version of the PayProp API is in development that will break the
+authentication flow this module currently relies on. Development on this module has halted, as it is no
+longer used internally and there is no further incentive to extend its functionality. Aside from a fix
+already applied for a TLS certificate verification CVE, no further work is planned. Do not use it in new code.
 
 The PayProp API Public Module is a standalone module that will allow you to interact with the PayProp API,
 through a normalised interface. This interface abstracts authentication methods, request and response building and more.
