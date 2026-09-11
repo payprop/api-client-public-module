@@ -2,6 +2,8 @@ Revision history for PayProp-API-Public-Client
 
 {{$NEXT}}
 
+1.04 2026-09-11T11:27:59Z
+
         - Mark distribution as deprecated (x_deprecated). A new PayProp API version is in
           development that will break the authentication flow this module uses, and this
           module is no longer used internally. Fixed a TLS verification CVE; no further
